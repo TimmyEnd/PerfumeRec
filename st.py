@@ -5,6 +5,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import spacy
+import en_core_web_lg
 nlp = spacy.load("en_core_web_lg")
 import random
 from PIL import Image
