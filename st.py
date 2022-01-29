@@ -6,8 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import spacy
 import spacy_streamlit
-#nlp = spacy.load("en_core_web_lg")
-nlp = spacy_streamlit.load("en_core_web_lg")
+nlp = spacy.load("en_core_web_lg")
 
 import random
 from PIL import Image
