@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
+import networkx as nx
 import spacy
 nlp = spacy.load("en_core_web_sm")
 
